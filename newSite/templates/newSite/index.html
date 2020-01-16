@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% load static%}
+{% block content %}
+
+   <div class="offer">
+     <div class="offer-content">
+          <h1> Быстро и Эфективно </h1>
+          <p> Здесь вы можете найти вам нужную инф <br>
+            без лишних больших иформация </p>
+
+
+          <form method="POST">
+              {% csrf_token%}
+              <table>
+                {{form }}
+              </table>
+              <input class="buttonForm" type="submit" value="Поиск">
+          </form>
+
+
+     </div>
+
+     <div class="img">
+     <img src="{% static 'img/poly.png'%}">
+
+
+     </div>
+
+   </div>
+{% endblock %}

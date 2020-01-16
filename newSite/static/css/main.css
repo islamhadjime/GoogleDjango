@@ -1,0 +1,247 @@
+
+body{
+
+  margin:  0;
+  padding: 0;
+  color:#fff;
+  background: rgb(17,17,17,1);
+  font-family: 'Oswald', sans-serif;
+
+
+
+}
+
+div,p,form,img,button{
+  box-sizing: border-box;
+}
+
+.container{
+  width: 1140px;
+  margin: 0 auto;
+
+}
+
+a{
+  text-decoration: none;
+}
+
+ul,li{
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+
+.logo{
+  font-size: 45px;
+  color:#fcac45;
+
+}
+
+.nav{
+  display: flex;
+  margin-top: 41px;
+}
+
+
+
+.menu{
+  display: flex;
+  margin-left: 550px;
+
+}
+
+.menu li{
+  font-size: 20px;
+  margin-right: 55px;
+
+
+}
+.menu a{
+   color:#fff;
+   padding: 12px 0;
+   transition: all 0.5s ease;
+   text-transform: uppercase;
+
+}
+
+.menu a:hover{
+  color:#fcac45;
+  border-top: 1px solid #fcac45;
+  border-bottom: 1px solid #fcac45;
+  font-size: 25px;
+
+
+}
+
+h1{
+ padding: 0;
+ margin: 0;
+}
+
+.offer{
+  display: flex;
+  align-items: center;
+  /* padding-bottom: 200px; */
+}
+.offer-content h1{
+   font-size: 41px;
+   font-weight: 900;
+}
+
+.offer-content p{
+   font-size: 20px;
+   font-weight: 200;
+   margin-top: 19px;
+
+}
+
+.offer-content .a{
+  background: #faf04b;
+  color: #000;
+
+  font-weight: 900;
+  font-size: 20px;
+  width: 218px;
+  display: block;
+  text-align: center;
+  padding: 18px 0;
+  transition: all 0.5s ease;
+  margin-top: 20px;
+  border-radius: 25px;
+  font-family: 'Oswald', sans-serif;
+
+}
+
+.offer-content .a:hover{
+   background: #fcac45;
+   color: #fff;;
+
+}
+
+.img{
+
+    width: 380px;
+    height: 379px;
+    margin-left: auto;
+    margin-right: 82px;
+    margin-top: 100px;
+    transition: all 0.5s ease;
+}
+
+.img:hover{
+  width: 420px;
+  height: 400px;
+
+}
+
+
+
+
+
+
+.main{
+   margin: 0;
+   padding: 0;
+   display: block;
+
+}
+
+.main-container{
+  /* margin-left: %; */
+  margin-top: 20%;
+}
+
+.main-container h2{
+  font-size: 30px;
+
+}
+.main-container p{
+   font-size: 23px;
+}
+
+
+
+
+.main-container {
+  padding: 0;
+  margin: 0;
+  display: block;
+  margin-top: 10%;
+  padding: 0 0 150px 0;
+
+}
+.main-title h2{
+  font-size: 30px;
+
+}
+
+.main-title p{
+  font-size: 20px;
+
+
+}
+.main-title a{
+  text-decoration: none;
+  margin-left: 5px;
+  color: #fff;
+  transition: all 0.5s ease;
+
+
+
+}
+.main-title a:hover{
+  color:#fcac45;
+  font-size: 23px;
+
+}
+
+.imran{
+  transition: all 0.5s ease;
+  margin-left: 10px;
+
+}
+
+.imran:hover{
+  color:#fcac45;
+  font-size: 23px;
+}
+
+
+
+
+.offer-content label{
+  display: none;
+
+}
+
+
+.buttonForm{
+  background: #faf04b;
+  width: 200px;
+  display: block;
+  padding: 15px 0px;
+  text-align: center;
+  border-radius: 20px;
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  transition: all 0.5s ease;
+
+
+
+}
+
+.buttonForm:hover{
+
+  background: #fcac45;
+  color: #fff;
+}
+
+.offer-content #id_name{
+
+  font-size: 20px;
+  border-radius: 20px;
+  padding: 7px 0px;
+  width: 400px;
+}
