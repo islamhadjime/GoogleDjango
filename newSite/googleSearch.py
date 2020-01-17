@@ -21,6 +21,8 @@ class googleSearch:
         soup =  BeautifulSoup(page.content, "html.parser")
 
         for tag in soup.find_all("p"):
+
+
             self.listResult.append(tag.text)
 
         return "".join(self.listResult)

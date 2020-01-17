@@ -5,6 +5,7 @@ body{
   padding: 0;
   color:#fff;
   background: rgb(17,17,17,1);
+  background: #1b1b1b;
   font-family: 'Oswald', sans-serif;
 
 
@@ -171,6 +172,12 @@ h1{
   padding: 0 0 150px 0;
 
 }
+
+.main-container{
+  text-align: center;
+  background: #eeeeee;
+  color: #212121;
+}
 .main-title h2{
   font-size: 30px;
 
@@ -243,5 +250,105 @@ h1{
   font-size: 20px;
   border-radius: 20px;
   padding: 7px 0px;
-  width: 400px;
+  width: 360px;
 }
+
+
+
+/* MEDIA PHONE */
+
+
+
+
+
+@media screen and (max-width:1090px) {
+  .container{
+    width: 790px;
+  }
+
+  .logo{
+    margin-left: 20px;
+  }
+
+  .menu {
+    margin-left: 150px;
+    margin-top: 10px;
+  }
+  .menu li a{
+    font-size: 24px;
+  }
+    .img{
+      display: none;
+    }
+
+    .offer{
+      margin-left: 100px;
+      margin-top: 100px;
+    }
+
+
+    .main-container{
+         width: 785px;
+         text-align: center;
+         background: #eeeeee;
+         color: #212121;
+       }
+  }
+
+
+
+
+
+
+@media screen and (max-width:704px){
+  .container{
+    width: 390px;
+  }
+
+
+
+  .menu {
+    display: none;
+
+
+  }
+
+  .offer{
+    margin-left: 0px;
+  }
+
+
+  .buttonForm{
+    margin-left: 60px;
+
+  }
+
+  .offer-content p {
+    text-align: center;
+  }
+
+  .offer-content h1 {
+    margin-left: 20px;
+  }
+
+  .main-container{
+       width: 380px;
+       text-align: center;
+       background: #eeeeee;
+       color: #212121;
+     }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
