@@ -255,11 +255,6 @@ h1{
 
 
 
-/* MEDIA PHONE */
-
-
-
-
 
 @media screen and (max-width:1090px) {
   .container{
@@ -287,7 +282,7 @@ h1{
     }
 
 
-    .main-container{
+    .main-container-text{
          width: 785px;
          text-align: center;
          background: #eeeeee;
@@ -308,7 +303,10 @@ h1{
 
 
   .menu {
-    display: none;
+    display: block;
+    font-size: 10px;
+    margin-bottom: 10px;
+    margin-left: 120px;
 
 
   }
@@ -331,12 +329,14 @@ h1{
     margin-left: 20px;
   }
 
-  .main-container{
+  .main-container-text{
        width: 380px;
        text-align: center;
        background: #eeeeee;
        color: #212121;
      }
+
+
 
 }
 
